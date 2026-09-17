@@ -1,5 +1,10 @@
+:root {
+    --cor-utilizada: darkblue;
+    --box-shadow: 0 0 30px gray;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--cor-utilizada);
     padding: 10px;
 }
 
@@ -10,7 +15,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cor-utilizada);
 }
 
 img {
@@ -18,7 +23,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
 }
 
 p {
@@ -49,7 +54,7 @@ main img {
     height: auto;
     border: 1px;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
 }
 
 footer {
