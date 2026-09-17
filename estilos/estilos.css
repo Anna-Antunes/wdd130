@@ -1,3 +1,18 @@
+/* Resetar CSS do meu projeto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background: #fff;
+    margin: 0;
+}
+
 :root {
     --cor-utilizada: darkblue;
     --box-shadow: 0 0 30px gray;
@@ -18,13 +33,13 @@ h1 {
     color: var(--cor-utilizada);
 }
 
-img {
+/*img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: var(--box-shadow);
-}
+}*/
 
 p {
     padding: 0px;
@@ -36,12 +51,9 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -49,16 +61,38 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
 main img {
+    margin-left: 20px;
+    margin-bottom: 20px;
     width: 150px;
     height: auto;
     border: 1px;
     padding: 2px;
     box-shadow: var(--box-shadow);
+    float: right;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de classe */
+
+.caixa {
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #eee;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
