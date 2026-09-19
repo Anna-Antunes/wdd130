@@ -33,13 +33,13 @@ h1 {
     color: var(--cor-utilizada);
 }
 
-/*img {
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: var(--box-shadow);
-}*/
+}
 
 p {
     padding: 0px;
