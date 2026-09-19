@@ -1,11 +1,11 @@
 :root {
     --cor-primaria: #fcd717;
     /* verde-floresta */
-    --cor-secundaria: #FFD700;
+    --cor-secundaria: #000000;
     /* bege médio */
     --cor-destaque1: #fcd717;
     /* azul-escuro acinzentado */
-    --cor-destaque2: #fcd717;
+    --cor-destaque2: #000000;
     /* amarelo-claro dourado */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -32,16 +32,16 @@ footer {
 h1,
 h2 {
     font-family: var(--fonte-titulo);
-    color: #000000;
+    color: var(--cor-secundaria);
     text-align: center;
 }
 
 p {
-    color: #000000;
+    color: var(--cor-destaque2);
 }
 
 footer {
-    color: #000000;
+    color: var(--cor-destaque2);
     background-color: aquamarine;
 }
 
@@ -56,7 +56,7 @@ article {
 article {
     position: absolute;
     bottom: 10px;
-    background-color: #fcd717;
+    background-color: var(--cor-primaria);
 
 }
 
