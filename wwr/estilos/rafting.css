@@ -60,7 +60,10 @@ article {
 
 }
 
-.socialmedia a,
+.socialmedia a {
+    text-decoration: none;
+}
+
 .redes-sociais a {
     text-decoration: none;
 }
