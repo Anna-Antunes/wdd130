@@ -24,13 +24,19 @@ nav {
 }
 
 nav a {
-    color: white;
+    /*color: white;*/
     display: block;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 h1 {
     color: var(--cor-utilizada);
+    border-bottom: 1px solid #000;
 }
 
 img {
@@ -57,17 +63,18 @@ aside {
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 400px;
 }
 
 aside h2 {
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: 80px;
 }
 
 main img {
+    margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
     width: 150px;
@@ -95,4 +102,40 @@ footer {
 
 .indentacao {
     padding-left: 2rem;
+}
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.texto-introducao {
+    margin-top: 20px;
 }
