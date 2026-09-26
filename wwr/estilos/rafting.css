@@ -36,13 +36,50 @@ h2 {
     text-align: center;
 }
 
+.historia {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.historia img {
+    width: 400px;
+    height: 200px;
+    margin-top: 28px;
+}
+
+.aventura {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.aventura img {
+    width: 250px;
+    height: 150px;
+    margin-top: 28px;
+    padding: 5px;
+
+}
+
 p {
     color: var(--cor-destaque2);
 }
 
 footer {
     color: var(--cor-destaque2);
-    background-color: aquamarine;
+    background-color: steelblue;
+
+}
+
+footer p {
+    text-align: center;
+    position: relative;
+    top: 40px;
 }
 
 nav,
@@ -66,6 +103,16 @@ article {
 
 .redes-sociais a {
     text-decoration: none;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes-sociais img {
+    width: 40px;
+    height: auto;
 }
 
 .hero {
@@ -92,4 +139,42 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+header nav {
+    background-color: #F0CE44;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+/* Estiliza palavras do header  */
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*muda a cor do texto */
+nav ul li a:hover {
+    color: steelblue;
+}
+
+.header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 3fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    background-color: #F0CE44;
 }
