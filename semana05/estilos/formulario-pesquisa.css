@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    color: blue;
+    background: #D3D3D3;
+}
+
+/* cabeçalho  */
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+/*  Título p  */
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: ;
+    background-color: ;
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+button {
+    margin: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    padding: .50rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.item-formulario {
+    display: grid;
+    align-items: center;
+}
+
+.coluna1 {
+    grid-template-columns: 1fr 2 fr;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+}
+
+.informacoes legend {
+    color: blue;
+}
+
+.perguntas legend {
+    color: blue;
+}
