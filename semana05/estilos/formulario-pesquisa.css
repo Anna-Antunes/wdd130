@@ -30,8 +30,8 @@ form {
     margin: 0 auto;
     padding: 2rem;
     border: 1px solid black;
-    border-radius: ;
-    background-color: ;
+    border-radius: 0.5rem;
+    background-color: #D3D3D3;
     display: grid;
 
 }
