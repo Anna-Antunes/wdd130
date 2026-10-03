@@ -29,10 +29,6 @@ footer {
     margin: 0 auto;
 }
 
-.hero h1 {
-    position: absolute;
-}
-
 h1,
 h2 {
     font-family: var(--fonte-titulo);
