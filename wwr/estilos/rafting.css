@@ -130,7 +130,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -242,7 +242,7 @@ header {
 .contato-conteudo button {
     margin-top: 20px;
     background-color: gray;
-    color: #fff;
+    color: #000;
     width: 300px;
     padding: 10px;
     border-radius: 6px;
@@ -251,5 +251,10 @@ header {
 
 .contato-conteudo button:hover {
     background-color: black;
+    color: white;
     cursor: pointer;
+}
+
+iframe {
+    border: 0;
 }
