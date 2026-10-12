@@ -93,7 +93,7 @@ article {
 .hero article {
     position: absolute;
     bottom: 10px;
-    background-color: var(--cor-primaria);
+    background-color: #add8e6;
     color: #000000;
 
 }
@@ -118,6 +118,7 @@ article {
 
 .hero {
     position: relative;
+    margin-top: 1rem;
 }
 
 .hero img {
@@ -133,7 +134,7 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
+    background-color: #add8e6;
     color: #000000;
 }
 
@@ -143,8 +144,9 @@ article {
 }
 
 header nav {
-    background-color: #F0CE44;
+    background-color: #add8e6;
     padding: 1rem;
+    font-size: 18px;
 }
 
 nav ul {
@@ -164,20 +166,20 @@ nav ul li a:hover {
     color: steelblue;
 }
 
-.header img {
+header img {
     margin: 0 0.25rem 0 1rem;
-    width: 64px;
+    width: 120px;
     height: auto;
 }
 
 header {
-    margin: 1rem auto;
+    /*margin: 1rem auto;*/
     display: grid;
     grid-template-columns: 120px 1fr 3fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1300px;
-    background-color: #F0CE44;
+    background-color: #add8e6;
     color: #000000;
 }
 
@@ -211,6 +213,10 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.bloco-contato {
+    margin-top: 1rem;
 }
 
 .contato-conteudo {
@@ -253,4 +259,221 @@ header {
 
 iframe {
     border: 0;
+}
+
+.heropage img {
+    width: 100%;
+    margin: auto;
+}
+
+.botao-contato {
+
+    position: absolute;
+    bottom: 200px;
+    left: 35%;
+    color: white;
+    text-align: center;
+
+}
+
+.botao-contato h1 {
+    color: #000000;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-contato p {
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.botao-contato button {
+    padding: 5px;
+    width: 200px;
+    background-color: steelblue;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.botao-contato button:hover {
+    color: white;
+    background-color: #000000;
+
+}
+
+.indice {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1px;
+    color: #000000;
+    text-align: center;
+    font-size: 21px;
+}
+
+.indice img {
+    width: 200px;
+    height: 150px;
+    margin-top: 28px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px steelblue;
+
+}
+
+.indice img:hover {
+    width: 210px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.icone {
+    width: 40px;
+    height: auto;
+}
+
+.indice figure {
+    text-align: center;
+}
+
+.indice figure img.icone {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.fundoazul {
+    background-color: steelblue;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.imagem-comercial {
+    display: flex;
+}
+
+.imagem-comercial img {
+    margin: 0 auto;
+    width: 40%;
+    justify-content: left;
+    border-radius: 2px;
+}
+
+.mensagem-comercial {
+    position: relative;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    width: 400px;
+    height: 190px;
+    left: -300px;
+    background-color: #add8e6;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.mensagem-comercial p {
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px;
+    color: #000000;
+    background-color: steelblue;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+}
+
+.passeios {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    gap: 30px;
+}
+
+.passeios img {
+    width: 325px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 0 8px steelblue;
+}
+
+.galeria-fotos {
+    background-color: #add8e6;
+    margin-top: 15px;
+}
+
+.galeria-fotos h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.informacoes h2 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.informacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    background-color: #add8e6;
+    font-size: 18px;
+    text-align: left;
+}
+
+.informacoes h2,
+a {
+    grid-column: 1/ -1;
+}
+
+.informacoes a {
+    display: block;
+    width: 150px;
+    padding: 5px;
+    background-color: steelblue;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.informacoes p {
+    border: 5px solid steelblue;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.tabela-passeios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.tabela-passeios div {
+    padding: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabela-passeios .servicos {
+    background-color: steelblue;
+    color: white;
 }
